@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Liftoff Designs</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;600;700&display=swap" rel="stylesheet">    
+</head>
+<body>
+    <section class="header">
+        <nav>
+            <a href="index.html"><img src="images/Logo/Asset%202png.png" width="186.5" height="50.5" alt="Logo"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="artworks.html">ARTWORKS</a></li>
+                    <li><a href="logos.html">LOGOS</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+
+        </nav>
+    <div class ="text-box">
+        <h1>Designs from another space</h1>
+        <p>We make designs catered to your needs, with precision and care to make sure it fits you.<br>With years of experience, we guarantee you will be satified.</p>
+        <a href="artworks.html" class="front-btn">Check out our work</a>        
+    </div>    
+        
+    </section>
+    
+    <section class="ArtworksHome">
+        <h1>Artworks</h1>
+        <p>Artworks done with great detail worthy of a full peice.</p>
+        
+        <div class="row">
+            <div class="ArtworksHome-col">
+                <img src ="images/Portfolio/Artworks/1.jpg" width="409.4px" height="578.8px">
+                <div class="layer">
+                    <h3>ROBOT SWAG</h3>
+                </div>
+            </div>
+            <div class="ArtworksHome-col">
+                <img src ="images/Portfolio/Artworks/3.jpg" width="409.4px" height="578.8px">
+                <div class="layer">
+                    <h3>OUTCAST</h3>
+                </div>
+            </div>
+            <div class="ArtworksHome-col">
+                <img src ="images/Portfolio/Artworks/2.jpg" width="409.4px" height="578.8px">
+                <div class="layer">
+                    <h3>SPACE MONKEY</h3>
+                </div>
+            </div>
+        </div>
+        
+    </section>
+    
+    <section class="LogosHome">
+        <h1>Logos</h1>
+        <p>Logos made to look great at any scale.</p>
+        
+        <div class="row">
+            <div class="ArtworksHome-col">
+                <img src ="images/Portfolio/Logos/ecopride.jpg" width="400px" height="400px">
+                <div class="layer">
+                    <h3>ECOPRIDE</h3>
+                </div>
+            </div>
+            <div class="ArtworksHome-col">
+                <img src ="images/Portfolio/Logos/Waves.jpg" width="400px" height="400px">
+                <div class="layer">
+                    <h3>WAVES</h3>
+                </div>
+            </div>
+            <div class="ArtworksHome-col">
+                <img src ="images/Portfolio/Logos/liquidlabs.jpg" width="400px" height="400px">
+                <div class="layer">
+                    <h3>LIQUIDLABS</h3>
+                </div>
+            </div>
+        </div>
+        
+    </section>
+    
+    <section class="footer">
+    <h4>About us</h4>
+    <p>We are a group of ex-freelancers, who formed a community out Liftoff Designs. Our vision is to bring you the best illustrative work you could ask for,<br>whatever you budget. Working from home, you can be sure that we will be in touch with you 24/7 if you choose to work with us.<br>This community is still ever-growing.</p>
+       
+    
+    
+    </section>
+    
+<script>
+    var navLinks = document.getElementById("navLinks");
+    
+    function showMenu(){
+        navLinks.style.right = "0";
+    }
+    function hideMenu(){
+        navLinks.style.right = "-200px";
+    }
+</script>
+    
+</body>
+</html>
